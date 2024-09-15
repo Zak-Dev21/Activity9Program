@@ -14,4 +14,6 @@ int main()
     bool OtherExperience = false;
 
     bool EligibleApplicant = US_Citizen == true && (BAdegree == true || OtherExperience == true);
+
+    cout << boolalpha << EligibleApplicant << endl;
 }
